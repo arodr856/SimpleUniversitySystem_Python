@@ -1,0 +1,9 @@
+# ignore everything
+*
+
+# but do not ignore these files
+
+!.gitignore
+
+!university
+!university/**

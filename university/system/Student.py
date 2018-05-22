@@ -21,3 +21,8 @@ class Student(Person):
     def add_course(self, course):
         self.courses.append(course)
 
+    def remove_course(self, course_name):
+        for i in range(len(self.courses)):
+            if self.courses[i].get_name() == course_name:
+                del self.courses[i]
+                break
